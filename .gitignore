@@ -1,7 +1,6 @@
 /HibernateSessionFactoryWithoutConfigFile
 */target
 */.settings
-.project
 .metadata
 tmp/
 .classpath
