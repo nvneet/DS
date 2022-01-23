@@ -4,10 +4,10 @@ public class DecimalToBinary {
 
 	public static void main(String[] args) {
 		
-		System.out.println("result: " + decimalToBinary(-13));
+		System.out.println("result: " + getDecimalToBinary(-13));
 	}
 	
-	private static int decimalToBinary(int num) {
+	private static int getDecimalToBinary(int num) {
 		
 //		if (num < 0) {
 //			return -1;
@@ -16,7 +16,7 @@ public class DecimalToBinary {
 			return 0;
 		}
 		
-		return num%2 + 10 * decimalToBinary(num / 2);
+		return num%2 + 10 * getDecimalToBinary(num / 2);
 		
 	}
 	
